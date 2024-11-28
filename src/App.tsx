@@ -31,6 +31,8 @@ function ScrollToTop() {
 }
 
 function App() {
+  const { pathname } = useLocation();
+
   return (
     <Router>
       <ScrollToTop />
@@ -56,7 +58,8 @@ function App() {
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </main>
-        <ServiceAreas />
+        {/* Conditionally render ServiceAreas */}
+        {pathname !== '/' && <ServiceAreas />}
         <Footer />
       </div>
     </Router>
