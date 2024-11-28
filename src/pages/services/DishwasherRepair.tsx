@@ -1,8 +1,9 @@
 import React from 'react';
 import ServiceLayout from './ServiceLayout';
+import ServiceAreas from '../../components/ServiceAreas';
 
 const DishwasherRepair = () => {
-  return (
+  return (<>
     <ServiceLayout
       title="Dishwasher Repair"
       image="https://images.pexels.com/photos/3829560/pexels-photo-3829560.jpeg?w=1260"
@@ -23,7 +24,8 @@ const DishwasherRepair = () => {
         "Door latch problems",
         "Soap dispenser issues"
       ]}
-    />
+    />  <ServiceAreas />
+    </>
   );
 };
 

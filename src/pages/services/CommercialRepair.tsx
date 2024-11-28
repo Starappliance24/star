@@ -1,8 +1,9 @@
 import React from 'react';
 import ServiceLayout from './ServiceLayout';
+import ServiceAreas from '../../components/ServiceAreas';
 
 const CommercialRepair = () => {
-  return (
+  return (<>
     <ServiceLayout
       title="Commercial Appliance Repair"
       image="https://images.pexels.com/photos/4700383/pexels-photo-4700383.jpeg?w=1260"
@@ -24,6 +25,8 @@ const CommercialRepair = () => {
         "Commercial HVAC"
       ]}
     />
+    <ServiceAreas />
+    </>
   );
 };
 

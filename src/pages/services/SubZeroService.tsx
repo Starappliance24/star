@@ -1,8 +1,9 @@
 import React from 'react';
 import ServiceLayout from './ServiceLayout';
+import ServiceAreas from '../../components/ServiceAreas';
 
 const SubZeroService = () => {
-  return (
+  return (<>
     <ServiceLayout
       title="Sub-Zero & Wolf Appliance Service"
       image="https://images.pexels.com/photos/8031965/pexels-photo-8031965.jpeg?w=1260"
@@ -23,7 +24,8 @@ const SubZeroService = () => {
         "Display malfunctions",
         "Performance optimization"
       ]}
-    />
+    /><ServiceAreas />
+    </>
   );
 };
 

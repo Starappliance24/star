@@ -1,8 +1,9 @@
 import React from 'react';
 import ServiceLayout from './ServiceLayout';
+import ServiceAreas from '../../components/ServiceAreas';
 
 const MicrowaveRepair = () => {
-  return (
+  return (<>
     <ServiceLayout
       title="Microwave & Oven Repair"
       image="https://images.pexels.com/photos/8082207/pexels-photo-8082207.jpeg?w=1260"
@@ -23,7 +24,8 @@ const MicrowaveRepair = () => {
         "Unusual noises",
         "Sparking inside"
       ]}
-    />
+    /><ServiceAreas />
+    </>
   );
 };
 

@@ -1,8 +1,9 @@
 import React from 'react';
 import ServiceLayout from './ServiceLayout';
+import ServiceAreas from '../../components/ServiceAreas';
 
 const RefrigeratorRepair = () => {
-  return (
+  return (<>
     <ServiceLayout
       title="Refrigerator Repair"
       image="https://images.pexels.com/photos/6835090/pexels-photo-6835090.jpeg?w=1260"
@@ -23,7 +24,8 @@ const RefrigeratorRepair = () => {
         "Door seal issues",
         "Temperature fluctuations"
       ]}
-    />
+    /><ServiceAreas />
+    </>
   );
 };
 

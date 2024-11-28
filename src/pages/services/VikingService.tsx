@@ -1,8 +1,9 @@
 import React from 'react';
 import ServiceLayout from './ServiceLayout';
+import ServiceAreas from '../../components/ServiceAreas';
 
 const VikingService = () => {
-  return (
+  return (<>
     <ServiceLayout
       title="Viking Appliance Service"
       image="https://images.pexels.com/photos/10450051/pexels-photo-10450051.jpeg?w=1260"
@@ -23,7 +24,8 @@ const VikingService = () => {
         "Ventilation issues",
         "Control panel malfunctions"
       ]}
-    />
+    /><ServiceAreas />
+    </>
   );
 };
 

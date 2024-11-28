@@ -1,5 +1,6 @@
 import React from "react";
 import { Phone, Mail, MapPin, Clock } from "lucide-react";
+import ServiceAreas from '../../components/ServiceAreas';
 
 const Contact = () => {
   return (

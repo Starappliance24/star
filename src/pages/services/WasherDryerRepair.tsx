@@ -1,8 +1,9 @@
 import React from 'react';
 import ServiceLayout from './ServiceLayout';
+import ServiceAreas from '../../components/ServiceAreas';
 
 const WasherDryerRepair = () => {
-  return (
+  return (<>
     <ServiceLayout
       title="Washer & Dryer Repair"
       image="https://images.pexels.com/photos/4700411/pexels-photo-4700411.jpeg?w=1260"
@@ -23,7 +24,8 @@ const WasherDryerRepair = () => {
         "Door or lid problems",
         "Dryer not heating"
       ]}
-    />
+    /><ServiceAreas />
+    </>
   );
 };
 
