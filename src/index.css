@@ -1,0 +1,111 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Swiper Styles */
+.swiper-button-next,
+.swiper-button-prev {
+  color: white !important;
+  background: rgba(0, 0, 0, 0.3);
+  width: 50px !important;
+  height: 50px !important;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  font-size: 20px !important;
+}
+
+.swiper-pagination-bullet {
+  background: white !important;
+  opacity: 0.7 !important;
+  width: 10px !important;
+  height: 10px !important;
+  transition: all 0.3s ease;
+}
+
+.swiper-pagination-bullet-active {
+  opacity: 1 !important;
+  width: 30px !important;
+  border-radius: 5px !important;
+}
+
+/* Responsive Image Loading */
+img {
+  transition: opacity 0.3s ease-in-out;
+}
+
+img[loading] {
+  opacity: 0;
+}
+
+img.loaded {
+  opacity: 1;
+}
+
+/* Responsive Typography */
+@layer base {
+  h1 {
+    @apply text-2xl md:text-3xl lg:text-4xl font-bold;
+  }
+  h2 {
+    @apply text-xl md:text-2xl lg:text-3xl font-bold;
+  }
+  h3 {
+    @apply text-lg md:text-xl lg:text-2xl font-bold;
+  }
+  p {
+    @apply text-base md:text-lg;
+  }
+}
+
+/* Responsive Container */
+.container {
+  @apply max-w-7xl mx-auto px-4;
+}
+
+/* Responsive Grid */
+.grid-responsive {
+  @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6 lg:gap-8;
+}
+
+/* Responsive Spacing */
+.section {
+  @apply py-8 md:py-12 lg:py-16;
+}
+
+/* Responsive Images */
+.img-responsive {
+  @apply w-full h-48 md:h-56 lg:h-64 object-cover rounded-lg;
+}
+
+/* Responsive Cards */
+.card {
+  @apply bg-white rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:transform hover:scale-105;
+}
+
+/* Fade Effect */
+.fade-enter {
+  opacity: 0;
+}
+
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit-active {
+  opacity: 0;
+  transition: opacity 500ms ease-out;
+}
