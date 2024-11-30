@@ -230,7 +230,7 @@ const Home = () => {
                   className="inline-flex items-center bg-emerald-600 text-white px-6 py-3 rounded-md hover:bg-emerald-700"
                 >
                   <Phone className="mr-2 h-5 w-5" />
-                  Call for Emergency Service
+                  Call for Emergency Service +1 (847) 987 7366
                 </a>
               </div>
             </div>
