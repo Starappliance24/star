@@ -38,7 +38,7 @@ const Home = () => {
       name: "Emily Davis",
       role: "Property Manager",
       content:
-        "We use ProFix for all our properties. Always dependable and great value.",
+        "We use Star Appliance Experts for all our properties. Always dependable and great value.",
       rating: 5,
       image:
         "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&auto=format&fit=crop&w=150&q=80",
