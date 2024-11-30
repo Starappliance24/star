@@ -10,7 +10,7 @@ import "swiper/css/effect-fade";
 const slides = [
   
   {
-    img:"https://www.lowcostappliancerepair.com/images/resource/viking-appliance-services.jpg",
+    img:"https://images.pexels.com/photos/2343467/pexels-photo-2343467.jpeg?w=1800",
     title: "Expert Appliance Repair",
     description: "Professional service for all major brands",
     buttonText: "Schedule Service",
@@ -28,7 +28,7 @@ const slides = [
     buttonText: "Get Service",
   },
   {
-    img:"https://images.pexels.com/photos/2343467/pexels-photo-2343467.jpeg?w=1800",
+    img:"https://www.lowcostappliancerepair.com/images/resource/viking-appliance-services.jpg",
     title: "24/7 Available Service",
     description: "Quick and reliable solutions, any time of day.",
     buttonText: "Get Immediate Assistance",
