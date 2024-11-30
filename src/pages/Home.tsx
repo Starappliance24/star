@@ -74,7 +74,7 @@ const Home = () => {
         "Washer & Dryer",
         "Refrigerator",
         "Dishwasher",
-        "Microwave",
+        "Air Conditioner",
         "Furnace",
       ],
     },
