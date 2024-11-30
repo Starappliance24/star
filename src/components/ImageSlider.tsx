@@ -13,25 +13,25 @@ const slides = [
     img:"https://images.pexels.com/photos/2343467/pexels-photo-2343467.jpeg?w=1800",
     title: "Expert Appliance Repair",
     description: "Professional service for all major brands",
-    buttonText: "Schedule Service",
+    buttonText: "Call Now: (847) 767-0547",
   },
   {
     img:"https://images.pexels.com/photos/6636290/pexels-photo-6636290.jpeg?w=1260",
     title: "Licensed & Insured Technicians",
     description: "Trusted professionals with years of experience",
-    buttonText: "Call Now",
+    buttonText: "Call Now: (847) 767-0547",
   },
   {
     img:"  https://images.pexels.com/photos/213162/pexels-photo-213162.jpeg?w=1260",
     title: "Commercial Repair Services",
     description: "Serving businesses with minimal downtime",
-    buttonText: "Get Service",
+    buttonText: "Call Now: (847) 767-0547",
   },
   {
     img:"https://www.lowcostappliancerepair.com/images/resource/viking-appliance-services.jpg",
     title: "24/7 Available Service",
     description: "Quick and reliable solutions, any time of day.",
-    buttonText: "Get Immediate Assistance",
+    buttonText: "Call Now: (847) 767-0547",
   },
 ];
 
