@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Clock, ArrowRight } from "lucide-react";
+import ServiceAreas from '../components/ServiceAreas2';
 
 const blogs = [
   {
@@ -33,7 +34,7 @@ const blogs = [
 ];
 
 const Blog = () => {
-  return (
+  return (<>
     <div className="py-16">
       <div className="max-w-7xl mx-auto px-4">
         <div className="text-center mb-12">
@@ -74,6 +75,7 @@ const Blog = () => {
         </div>
       </div>
     </div>
+    <ServiceAreas/></>
   );
 };
 

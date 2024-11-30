@@ -24,9 +24,7 @@ const CommercialRepair = () => {
         "Ice machines",
         "Commercial HVAC"
       ]}
-    />
-    <ServiceAreas />
-    </>
+    /><ServiceAreas/></>
   );
 };
 

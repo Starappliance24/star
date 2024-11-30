@@ -1,9 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Clock, User, ArrowLeft } from "lucide-react";
+import ServiceAreas from '../../components/ServiceAreas2';
 
 const ApplianceCare = () => {
-  return (
+  return (<>
     <div className="py-16">
       <div className="max-w-4xl mx-auto px-4">
         <Link
@@ -90,13 +91,14 @@ const ApplianceCare = () => {
                 href="tel:+15551234567"
                 className="inline-block bg-emerald-600 text-white px-6 py-3 rounded-md hover:bg-emerald-700"
               >
-                Call Now: (555) 123-4567
+                Call Now: (847) 767-0547
               </a>
             </div>
           </div>
         </article>
       </div>
     </div>
+    <ServiceAreas/></>
   );
 };
 

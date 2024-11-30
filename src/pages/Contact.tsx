@@ -1,6 +1,5 @@
 import React from "react";
 import { Phone, Mail, MapPin, Clock } from "lucide-react";
-import ServiceAreas from '../../components/ServiceAreas';
 
 const Contact = () => {
   return (
@@ -53,10 +52,10 @@ const Contact = () => {
               <div>
                 <h4 className="font-bold mb-1">Email</h4>
                 <a
-                  href="mailto:lowcostappliancerepair@yahoo.com"
+                  href="mailto:starappliance24@gmail.com"
                   className="text-emerald-600 hover:text-emerald-700"
                 >
-                  lowcostappliancerepair@yahoo.com
+                  starappliance24@gmail.com
                 </a>
               </div>
             </div>

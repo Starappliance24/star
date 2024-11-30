@@ -125,7 +125,7 @@ const Home = () => {
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold mb-4 text-emerald-900">
-              Why Choose LCAR?
+              Why Choose Star Appliance?
             </h2>
             <p className="text-xl text-gray-600">
               Your trusted partner in appliance repair and maintenance
@@ -226,7 +226,7 @@ const Home = () => {
                 <h3 className="text-2xl font-bold mb-4">Emergency Service</h3>
                 <p className="mb-4">Available 24/7 for urgent repairs</p>
                 <a
-                  href="tel:+18477670547"
+                  href="tel:+18479877366"
                   className="inline-flex items-center bg-emerald-600 text-white px-6 py-3 rounded-md hover:bg-emerald-700"
                 >
                   <Phone className="mr-2 h-5 w-5" />

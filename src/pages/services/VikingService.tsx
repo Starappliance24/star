@@ -1,12 +1,11 @@
 import React from 'react';
 import ServiceLayout from './ServiceLayout';
 import ServiceAreas from '../../components/ServiceAreas';
-
 const VikingService = () => {
   return (<>
     <ServiceLayout
       title="Viking Appliance Service"
-      image="https://images.pexels.com/photos/10450051/pexels-photo-10450051.jpeg?w=1260"
+      image="https://www.lowcostappliancerepair.com/images/resource/viking-appliance-services.jpg"
       description="Specialized repair and maintenance services for Viking appliances. Our certified technicians are trained to work on all Viking products."
       features={[
         "Viking-certified technicians",
@@ -24,8 +23,7 @@ const VikingService = () => {
         "Ventilation issues",
         "Control panel malfunctions"
       ]}
-    /><ServiceAreas />
-    </>
+    /><ServiceAreas/></>
   );
 };
 

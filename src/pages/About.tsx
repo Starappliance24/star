@@ -51,7 +51,7 @@ const About = () => {
         />
         <div className="absolute inset-0 bg-gradient-to-r from-emerald-900/20 to-emerald-600/80 flex items-center justify-center">
           <div className="text-center text-white">
-            <h1 className="text-4xl font-bold mb-4">About LCAR</h1>
+            <h1 className="text-4xl font-bold mb-4">About Star Appliance</h1>
             <p className="text-xl max-w-2xl mx-auto">
               Your trusted partner in appliance repair and maintenance since
               2012
@@ -69,16 +69,16 @@ const About = () => {
                 Our Story
               </h2>
               <p className="text-gray-600 mb-4">
-                Founded in 2012, LCAR has grown from a small local repair
-                service to one of the most trusted names in appliance repair.
-                Our journey began with a simple mission: to provide honest,
-                reliable, and professional appliance repair services to our
-                community.
+                Founded in 2012, Star Appliance has grown from a small local
+                repair service to one of the most trusted names in appliance
+                repair. Our journey began with a simple mission: to provide
+                honest, reliable, and professional appliance repair services to
+                our community.
               </p>
               <p className="text-gray-600 mb-4">
-                With over a decade of experience, we've built a reputation
-                for excellence in both residential and commercial appliance
-                repair. Our team of certified technicians brings expertise,
+                With over a decade of experience, we've built a reputation for
+                excellence in both residential and commercial appliance repair.
+                Our team of certified technicians brings expertise,
                 professionalism, and dedication to every service call.
               </p>
               <p className="text-gray-600">
@@ -152,7 +152,7 @@ const About = () => {
               Why Choose Us
             </h2>
             <p className="text-xl text-gray-600">
-              Experience the LCAR difference
+              Experience the Star Appliance difference
             </p>
           </div>
 

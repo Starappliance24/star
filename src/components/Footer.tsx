@@ -15,8 +15,8 @@ const Footer = () => {
               </p>
               <p className="flex items-center">
                 <Mail className="h-5 w-5 mr-2" />
-                <a href="mailto:lowcostappliancerepair@yahoo.com">
-                  lowcostappliancerepair@yahoo.com
+                <a href="mailto:starappliance24@gmail.com">
+                  starappliance24@gmail.com
                 </a>
               </p>
               <p className="flex items-center">
@@ -31,7 +31,7 @@ const Footer = () => {
               <p>Monday - Friday: 8:00 AM - 6:00 PM</p>
               <p>Saturday: 9:00 AM - 4:00 PM</p>
               <p>Sunday: Closed</p>
-              <p className="mt-4">24/7 Emergency Service Available</p>
+              <p className="mt-4">24/7 Available</p>
             </div>
           </div>
           <div>
@@ -41,7 +41,10 @@ const Footer = () => {
           </div>
         </div>
         <div className="mt-8 pt-8 border-t border-gray-700 text-center">
-          <p>&copy; {new Date().getFullYear()} LCAR. All rights reserved.</p>
+          <p>
+            &copy; {new Date().getFullYear()} Star Appliance. All rights
+            reserved.
+          </p>
         </div>
       </div>
     </footer>

@@ -1,7 +1,6 @@
 import React from 'react';
 import ServiceLayout from './ServiceLayout';
 import ServiceAreas from '../../components/ServiceAreas';
-
 const DishwasherRepair = () => {
   return (<>
     <ServiceLayout
@@ -24,8 +23,7 @@ const DishwasherRepair = () => {
         "Door latch problems",
         "Soap dispenser issues"
       ]}
-    />  <ServiceAreas />
-    </>
+    /><ServiceAreas/></>
   );
 };
 

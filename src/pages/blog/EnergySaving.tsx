@@ -1,9 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Clock, User, ArrowLeft, Lightbulb } from "lucide-react";
+import ServiceAreas from '../../components/ServiceAreas2';
 
 const EnergySaving = () => {
-  return (
+  return (<>
     <div className="py-16">
       <div className="max-w-4xl mx-auto px-4">
         <Link
@@ -90,7 +91,7 @@ const EnergySaving = () => {
           </div>
         </article>
       </div>
-    </div>
+    </div><ServiceAreas/></>
   );
 };
 

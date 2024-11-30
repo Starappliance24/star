@@ -1,13 +1,16 @@
 import React from 'react';
 import ServiceLayout from './ServiceLayout';
 import ServiceAreas from '../../components/ServiceAreas';
-
 const MicrowaveRepair = () => {
   return (<>
     <ServiceLayout
-      title="Microwave & Oven Repair"
-      image="https://images.pexels.com/photos/8082207/pexels-photo-8082207.jpeg?w=1260"
-      description="Expert microwave repair services for all types and brands. From built-in to countertop models, we ensure safe and efficient repairs."
+      title="Air Conditioner & Oven Repair"
+      image="https://images.pexels.com/photos/5463575/pexels-photo-5463575.jpeg?w=1260"
+      description="Expert air conditioner and oven repair services for all types and brands. From wall-mounted to portable air conditioners and standard to convection ovens, we ensure safe and efficient repairs.
+
+
+
+"
       features={[
         "Fast turnaround time",
         "Safety certified repairs",
@@ -17,15 +20,14 @@ const MicrowaveRepair = () => {
         "Affordable rates"
       ]}
       commonIssues={[
-        "Not heating",
+        "Not cooling",
         "Turntable not working",
         "Display problems",
         "Door issues",
         "Unusual noises",
         "Sparking inside"
       ]}
-    /><ServiceAreas />
-    </>
+    /><ServiceAreas/></>
   );
 };
 
